@@ -364,7 +364,7 @@ nav {
 
 .project:hover .project__wrapper:before {
   transform: translateY(0);
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .project:hover .project__img {
@@ -383,7 +383,7 @@ nav {
 
 .project__description {
   position: absolute;
-  top: 43%;
+  top: 50%;
   left: 90px;
   transform: translateY(100%);
   max-width: 550px;
@@ -393,22 +393,23 @@ nav {
 }
 
 .project__description--title {
+  transform: translateX(-15px);
   font-size: 50px;
   letter-spacing: 1px;
 }
 
 .project__description--sub-title {
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 1px;
 }
 
 .project__description--para {
-  margin: 20px 0;
+  margin: 35px 0;
   font-size: 20px;
 }
 
 .project__description--link {
-  font-size: 30px;
+  font-size: 50px;
   margin-right: 16px;
 }
 
@@ -417,6 +418,11 @@ nav {
 .project__description--para,
 .project__description--link {
   text-align: left;
+  color: #fff;
+}
+
+.mealbuddies__slides--download {
+  font-size: 25px;
   color: #fff;
 }
 
@@ -439,7 +445,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .footer__logo--img {
