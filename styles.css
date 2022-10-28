@@ -277,6 +277,10 @@ nav {
 
 /* TECH STACK */
 
+#languages{
+  height: 100%;
+}
+
 .language__img {
   width: 100%;
   max-width: 100px;
